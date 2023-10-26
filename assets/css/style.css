@@ -1,0 +1,92 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: "pokemon txt";
+    src: url(../font/Pokemon\ Solid.ttf);
+}
+
+@font-face{
+    font-family: "pokemon stats";
+    src: url(../font/Pokemon\ Solid.ttf);
+}
+
+
+body{
+    width: 100%;
+    background-image: url(../image/pokemon-party.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}   
+
+
+.image{
+    width: 80%;
+    margin: auto;
+}
+
+h1{
+    font-size: 3rem;
+    text-align: center;
+    font-family: "pokemon txt";
+    letter-spacing: 0.3rem ; /*espacement entre les lettres */
+}
+
+.conteneur{
+    border-radius: 10%;
+    width: 55%;
+    height: 30rem;
+    margin: 4rem auto;
+    background-color: rgba(135,206,250, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#cadre_liste{
+    /* border: 1px solid blue; */
+    /* background-color: yellow; */
+    width: 30%;
+    height: 2rem;
+    margin: 0 auto;
+}
+.cadre-pokemon {
+    display: flex;
+    justify-content: space-around;
+}
+
+#cadre_image{
+    /* border: 3px solid greenyellow; */
+    width: 50%;
+    height: 18rem;
+ }
+
+.competence{
+    display: flex;
+    flex-direction: column;
+    border-radius: 5%;
+    width: 30%;
+    height: 18rem;
+    display: flex;
+    align-self: flex-end;
+   
+}
+
+.une-statistique{
+    font-size: 1rem;
+    line-height: 2.3rem;
+    font-family: "pokemon stats";
+}
+
+.une-statistique{
+    border: 1px solid #129af5;
+    border-radius: 0.4rem;
+}
+
+.select{
+     background-color: #129af5; /*a tester changer la couleur de fond */
+}
